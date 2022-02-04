@@ -1,0 +1,118 @@
+*{
+	margin: 0px;
+	padding:0px;
+	box-sizing: border-box;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	position:sticky; top:0px;
+	z-index: 1;
+  }
+  .mywords{
+	color:white;
+	padding-left:10%;
+	padding-top: 10px;
+	font-size:20px;
+	
+  }
+  
+  li {
+	float: left;
+  }
+  
+  li a {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+  }
+  
+  li a:hover {
+	background-color: #111;
+  }
+  
+  .active {
+	background-color: red;
+  }
+
+#container{
+	width: 1140px;
+	margin:20px auto;
+	
+}
+body{
+	background-color: #f1f1f1;
+}
+h2{
+	margin-bottom:10px;
+}
+#blog-post-container{
+	width: 75%;	
+	float: left;
+}
+
+#other-posts{
+	width: 25%;	
+	float: left;
+	position: fixed;
+	right:0px;
+	bottom:0px;
+}
+
+.box{
+	background-color: white;
+	margin: 10px;
+	padding:20px;
+}
+
+
+.blog-post img{
+	width: 100%;
+	margin-bottom: 15px;
+}
+.blog-post{
+	position: relative;
+	
+}
+
+.date{
+	position: absolute;
+	right:50px;
+	top: 20px;
+}
+.tags{
+    margin-top: 10px;
+}
+.tags li{
+	list-style: none;
+	display: inline;
+	margin-right: 5px;
+	z-index:-1;
+}
+
+.tags li a{
+	text-decoration: none;
+}
+
+#author-box{
+	border-top: 1px solid RGB(0, 0, 0,0.125);
+	
+}
+#author-box img{
+	border-radius: 50%;
+	float: left;
+	padding-top:10px;
+}
+
+.author-text{
+	float: left;
+	margin-top: 60px;
+	margin-left: 20px;
+    text-shadow:2px 2px #d4c8c8;
+    font-size: 20px;
+}
